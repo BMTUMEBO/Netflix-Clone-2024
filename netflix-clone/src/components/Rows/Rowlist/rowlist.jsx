@@ -1,10 +1,11 @@
 import React from 'react'
 import Row from '../Row/row'
-import requests from '../../../utils/requests'
+import requests from '../../../utils/request'
+import './rowlist.css'
 
 const RowList = () => {
     return (
-        <>
+        <div className='Rowlist'>
             <Row
                 title="NETFLIX ORIGINALS"
                 fetchUrl={requests.fetchNetflixOriginals}
@@ -18,7 +19,7 @@ const RowList = () => {
             <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
             <Row title="TV Shows" fetchUrl={requests.fetchTvShow} />
             <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
-        </>
+        </div>
     )
 }
 
