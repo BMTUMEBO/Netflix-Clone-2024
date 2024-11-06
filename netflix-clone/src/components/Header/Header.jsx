@@ -15,7 +15,7 @@ function Header() {
                 <li><img src={NetflixLogo} alt="Netflix Logo" width="100" /></li>
                 <li>Netflix</li>
                 <li>Home</li>
-                <li>TVShows</li>
+                <li>TV-Shows</li>
                 <li>Movies</li>
                 <li>Latest</li>
                 <li>MyList</li>
